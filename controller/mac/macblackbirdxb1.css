@@ -8,11 +8,11 @@
 }
 
 .xbox.white {
-    background: url(base_blackbird_full.png);
+    background: url(base-skye.png);
 }
 
 .xbox.disconnected {
-    background: url(skye_dc.png);
+    background: url(blackbird_dc.png);
 }
 
 .xbox.disconnected div {
