@@ -44,6 +44,7 @@
 }
 
 .xbox .bumper {
+    background: url(bumper.png);
     width: 170px;
     height: 61px;
     opacity: 0;
@@ -62,12 +63,10 @@
 }
 
 .xbox .bumper.left {
-    background: url(bumper.png);
     float: left;
 }
 
 .xbox .bumper.right {
-    background: url(bumper_blackbird_right.png);
     float: right;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
@@ -112,7 +111,7 @@
 }
 
 .xbox .back, .xbox .start {
-    background: url(blackbird_start_select.png);
+    background: url(start-select.png);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -141,7 +140,7 @@
 
 .xbox .button {
     position: absolute;
-    background: url(abxy_blackbird.png);
+    background: url(abxy.png);
     width: 48px;
     height: 48px;
 }
@@ -186,7 +185,7 @@
 
 .xbox .stick {
     position: absolute;
-    background: url(sticks_blackbird.png);
+    background: url(stick.png);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
