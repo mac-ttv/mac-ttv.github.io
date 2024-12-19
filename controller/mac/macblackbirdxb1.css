@@ -1,6 +1,6 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
-    background: url(xbox-assets/base.svg);
+    background: url(base_blackbird_full.png);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
@@ -8,11 +8,11 @@
 }
 
 .xbox.white {
-    background: url(xbox-assets/base-white.svg);
+    background: url(base_blackbird_full.png);
 }
 
 .xbox.disconnected {
-    background: url(xbox-assets/disconnected.svg);
+    background: url(skye_dc.png);
 }
 
 .xbox.disconnected div {
@@ -29,7 +29,7 @@
 .xbox .trigger {
     width: 88px;
     height: 121px;
-    background: url(xbox-assets/trigger.svg);
+    background: url(trigger.svg);
     opacity: 0;
 }
 
@@ -46,7 +46,6 @@
 .xbox .bumper {
     width: 170px;
     height: 61px;
-    background: url(xbox-assets/bumper.svg);
     opacity: 0;
 }
 
@@ -63,10 +62,12 @@
 }
 
 .xbox .bumper.left {
+    background: url(bumper.png);
     float: left;
 }
 
 .xbox .bumper.right {
+    background: url(bumper_blackbird_right.png);
     float: right;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
@@ -74,7 +75,7 @@
 
 .xbox .quadrant {
     position: absolute;
-    background: url(xbox-assets/quadrant.svg);
+    background: url(quadrant.png);
     height: 45px;
     width: 45px;
     top: 258px;
@@ -111,7 +112,7 @@
 }
 
 .xbox .back, .xbox .start {
-    background: url(xbox-assets/start-select.svg);
+    background: url(blackbird_start_select.png);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -140,7 +141,7 @@
 
 .xbox .button {
     position: absolute;
-    background: url(xbox-assets/abxy.svg);
+    background: url(abxy_blackbird.png);
     width: 48px;
     height: 48px;
 }
@@ -185,7 +186,7 @@
 
 .xbox .stick {
     position: absolute;
-    background: url(xbox-assets/stick.svg);
+    background: url(sticks_blackbird.png);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
@@ -214,7 +215,7 @@
 }
 
 .xbox .face {
-    background: url(xbox-assets/dpad.svg);
+    background: url(dpad.png);
     position: absolute;
     opacity: 0;
 }
