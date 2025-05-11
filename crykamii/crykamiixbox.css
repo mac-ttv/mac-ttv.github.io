@@ -8,11 +8,11 @@
 }
 
 .xbox.white {
-    background: url(sub_aot_base2_full.png);
+    background: url(pearljambase.png);
 }
 
 .xbox.disconnected {
-    background: url(disconnectedkiss.png);
+    background: url(disconnected.png);
 }
 
 .xbox.disconnected div {
