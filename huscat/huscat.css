@@ -202,11 +202,19 @@
     left: 0;
 }
 
+.xbox .stick.left.pressed {
+    background-position: 0 0;
+}
+
 .xbox .stick.right {
     background: url(pawstickswhite.png);
     background-position: -85px 0;
     top: 113px;
     left: 288px;
+}
+
+.xbox .stick.right.pressed {
+    background-position: 0 0;
 }
 
 .xbox .dpad {
