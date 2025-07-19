@@ -196,7 +196,7 @@
 } */
 
 .xbox .stick.left {
-    background: url(pawstickswhiteinvert.png);
+    background: url(pawstickswhite.png);
     background-position: -85px 0;
     top: 0;
     left: 0;
@@ -207,7 +207,7 @@
 }
 
 .xbox .stick.right {
-    background: url(pawstickswhite.png);
+    background: url(pawstickswhiteinvert.png);
     background-position: -85px 0;
     top: 113px;
     left: 288px;
