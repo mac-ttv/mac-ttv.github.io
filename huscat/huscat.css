@@ -111,7 +111,7 @@
 }
 
 .xbox .back, .xbox .start {
-    background: url(start-select_huscat.png);
+    background: url(start-select_huscatinvert.png);
     width: 33px;
     height: 33px;
     opacity: 0;
