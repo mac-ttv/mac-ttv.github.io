@@ -191,9 +191,9 @@
     width: 83px;
 }
 
-.xbox .stick.pressed {
+/* .xbox .stick.pressed {
     background-position: 0 0;
-}
+} */
 
 .xbox .stick.left {
     background: url(pawstickswhiteinvert.png);
